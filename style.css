@@ -164,6 +164,9 @@ body {
     width: 10rem;
     height: 5.6rem;
   }
+  .container .form .submit:hover {
+    background: linear-gradient(to right, #f8d5d5, #f5c9c9);
+  }
   .container .error-text {
     line-height: 2.8rem;
   }
