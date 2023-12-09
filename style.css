@@ -23,6 +23,9 @@ body {
   width: 10rem;
   margin: 3.2rem;
 }
+.container .hero-mobile {
+  width: 100%;
+}
 .container .main {
   text-align: center;
   padding: 0 3.2rem;
@@ -59,18 +62,20 @@ body {
   border: 1px solid #ce9898;
   padding-left: 2.4rem;
   padding-right: 10rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 2.8rem;
+  background: transparent;
+  color: #423a3a;
 }
 .container .form .input::-moz-placeholder {
-  font-size: 1.4rem;
-  font-weight: 400;
-  font-family: "Josefin Sans", sans-serif;
-  line-height: 2.8rem;
+  color: #ce9898;
+  opacity: 0.5;
 }
 .container .form .input::placeholder {
-  font-size: 1.4rem;
-  font-weight: 400;
-  font-family: "Josefin Sans", sans-serif;
-  line-height: 2.8rem;
+  color: #ce9898;
+  opacity: 0.5;
 }
 .container .form .error-icon {
   visibility: hidden;
@@ -97,4 +102,45 @@ body {
   font-weight: 400;
   margin-top: 0.8rem;
   margin-left: 5.6rem;
+}
+
+.hero-desktop {
+  display: none;
+}
+
+@media all and (min-width: 1300px) {
+  body {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container {
+    width: 44.4rem;
+    margin: 0 auto;
+  }
+  .container .logo {
+    width: 15.8rem;
+    margin-top: 7.5rem;
+  }
+  .container .hero-mobile {
+    display: none;
+  }
+  .container .main {
+    text-align: start;
+    margin-top: 13.6rem;
+  }
+  .container .main .title {
+    font-size: 6.4rem;
+    line-height: 6.4rem;
+    letter-spacing: 17.321px;
+  }
+  .container .main .text {
+    margin-top: 3.2rem;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+  .hero-desktop {
+    display: block;
+    min-width: 90rem;
+    width: 40%;
+  }
 }/*# sourceMappingURL=style.css.map */
