@@ -72,10 +72,12 @@ body {
 .container .form .input::-moz-placeholder {
   color: #ce9898;
   opacity: 0.5;
+  font-size: 1.4rem;
 }
 .container .form .input::placeholder {
   color: #ce9898;
   opacity: 0.5;
+  font-size: 1.4rem;
 }
 .container .form .error-icon {
   visibility: hidden;
@@ -136,6 +138,28 @@ body {
   .container .main .text {
     margin-top: 3.2rem;
     font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+  .container .form .input {
+    height: 5.6rem;
+    padding-right: 15rem;
+    font-size: 1.6rem;
+  }
+  .container .form .input::-moz-placeholder {
+    font-size: 1.6rem;
+  }
+  .container .form .input::placeholder {
+    font-size: 1.6rem;
+  }
+  .container .form .error-icon {
+    z-index: 1;
+    right: 11rem;
+  }
+  .container .form .submit {
+    width: 10rem;
+    height: 5.6rem;
+  }
+  .container .error-text {
     line-height: 2.8rem;
   }
   .hero-desktop {
