@@ -120,6 +120,9 @@ body {
   body {
     display: flex;
     justify-content: space-between;
+    background: url(./images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .container {
