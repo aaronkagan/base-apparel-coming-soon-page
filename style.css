@@ -117,6 +117,7 @@ body {
     background: url(./images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
   }
   .container {
     width: 44.4rem;
