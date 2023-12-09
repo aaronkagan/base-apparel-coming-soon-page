@@ -17,6 +17,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 7.1rem;
 }
 .container .logo {
   width: 10rem;
