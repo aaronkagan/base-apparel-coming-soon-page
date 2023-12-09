@@ -25,11 +25,12 @@ Users should be able to:
 
 ### Links
 
-- Live Demo: [Add live site URL here](https://your-live-site-url.com)
+- Live Demo: [https://aaronkagandev-base-apprarel.netlify.app/](https://aaronkagandev-base-apprarel.netlify.app/)
 
 ### Screenshot
 
-![Desktop Preview](./images/desktop-preview.jpg)
+![Desktop Preview](./images/desktop-preview.png)
+![Mobile Preview](./images/mobile-preview.png)
 
 ## My process
 
